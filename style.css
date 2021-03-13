@@ -1,0 +1,35 @@
+.mid-square li,
+.mid-f-slash li {
+}
+
+.mid-square li::before {
+  content: "▪ ";
+}
+
+.mid-square li:first-of-type::before,
+.mid-f-slash li:first-of-type::before {
+  content: "";
+}
+
+.mid-f-slash li::before {
+  content: "// ";
+  opacity: .5;
+}
+
+.text-shadow-white {
+  text-shadow: .2rem .2rem white;
+}
+
+@media screen and (min-width: 30em) {
+  .btn-shadow-ns {
+    box-shadow: 5px 5px #000;
+  }
+
+  .solid-shadow-ns {
+    box-shadow: 10px 10px #000;
+  }
+
+  .bg-transparent-ns { 
+    background-color: var(--transparent);
+  }
+}
