@@ -14,11 +14,11 @@
 
 .mid-f-slash li::before {
   content: "// ";
-  opacity: .5;
+  opacity: 0.5;
 }
 
 .text-shadow-white {
-  text-shadow: .2rem .2rem white;
+  text-shadow: 0.2rem 0.2rem white;
 }
 
 @media screen and (min-width: 30em) {
@@ -30,7 +30,7 @@
     box-shadow: 10px 10px #000;
   }
 
-  .bg-transparent-ns { 
+  .bg-transparent-ns {
     background-color: var(--transparent);
   }
 }
