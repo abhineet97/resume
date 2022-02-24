@@ -1,5 +1,6 @@
 .mid-square li,
 .mid-f-slash li {
+  display: inline-block;
 }
 
 .mid-square li::before {
