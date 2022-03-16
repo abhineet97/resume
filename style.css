@@ -34,3 +34,26 @@
     background-color: var(--transparent);
   }
 }
+
+@media print {
+  html,
+  body {
+    height: 99%;
+  }
+
+  body {
+    background: transparent !important;
+  }
+
+  body > header {
+    display: none !important;
+  }
+
+  main {
+    border: none !important;
+  }
+
+  .page {
+    page-break-after: always;
+  }
+}
